@@ -1,0 +1,23 @@
+/* Google Font Imports with All Weights */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Utility Font Classes */
+
+/* Sans-Serif Fonts */
+.font-pop {
+    font-family: 'Poppins', sans-serif;
+}
+.font-ral {
+    font-family: 'Raleway', sans-serif;
+}
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Serif Fonts */
+.font-inst {
+    font-family: "Instrument Serif", serif;
+}

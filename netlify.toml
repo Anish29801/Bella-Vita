@@ -1,0 +1,35 @@
+# Redirect the root route
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+# Redirect the /history route
+[[redirects]]
+  from = "/history"
+  to = "/index.html"
+  status = 200
+
+# Redirect the /suites route
+[[redirects]]
+  from = "/suites"
+  to = "/index.html"
+  status = 200
+
+# Redirect the /dining route
+[[redirects]]
+  from = "/dining"
+  to = "/index.html"
+  status = 200
+
+# Redirect the /contact route
+[[redirects]]
+  from = "/contact"
+  to = "/index.html"
+  status = 200
+
+# Catch-all redirect for all other routes (important for client-side routing)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
